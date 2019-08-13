@@ -91,7 +91,7 @@ export default {
     },
     async fetchNew (id, max_id='') {
       this.loadingMore = true;
-      const url = `http://nr-wcm-proxy.herokuapp.com/comment?id=${id}&gsid=${this.$root.$children[0].gsid}&max_id=${max_id}`;
+      const url = `https://nr-wcm-proxy.herokuapp.com/comment?id=${id}&gsid=${this.$root.$children[0].gsid}&max_id=${max_id}`;
       const fetchResult = await fetch(url);
       const resultJson = await fetchResult.json();
 
