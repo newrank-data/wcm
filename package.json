@@ -1,0 +1,50 @@
+{
+  "name": "wcm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.2.4",
+    "core-js": "^2.6.5",
+    "dexie": "^2.0.4",
+    "reqwest": "^2.0.5",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.0",
+    "vue-jsonp": "^0.1.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "vue-cli-plugin-ant-design": "^1.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
