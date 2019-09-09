@@ -40,7 +40,11 @@
             </span>
             <a-divider type="vertical" class="divider" />
             <span>
-              <a-icon type="safety-certificate" style="margin-right: 8px" />
+              <a-icon
+                type="safety-certificate"
+                style="margin-right: 8px"
+                v-if="item.user_verified_type == -1 ? false : true"
+              />
               {{transVerifiedType(item.user_verified_type)}}
             </span>
             <a-divider type="vertical" class="divider" />
