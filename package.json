@@ -10,7 +10,7 @@
   "dependencies": {
     "ant-design-vue": "^1.2.4",
     "core-js": "^2.6.5",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "reqwest": "^2.0.5",
     "vue": "^2.6.10",
     "vue-clipboard2": "^0.3.0",
